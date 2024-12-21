@@ -1,7 +1,7 @@
 name: Deploy React App
 on: push
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get repository code
